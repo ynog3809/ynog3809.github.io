@@ -1,37 +1,185 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title> Y Warehouse</title>
+    <meta charset="utf-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-You can use the [editor on GitHub](https://github.com/ynog3809/ynog3809.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+	<style>
+	body {
+		font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+		text-align: center;
+		background-color: #f9f9f9;
+		background-image: url("branch-02.png");
+		background-attachment: fixed;
+		background-position-x: right;
+		background-repeat: no-repeat;
+		background-size:contain;
+	}
+	div {
+		margin: 0 auto;
+		padding: 20px;
+		background-color: rgba(255,255,255,0.8);
+	}
+	.mini {
+		width: auto;
+		max-height: 300px;
+	}
+	.box {
+		padding: 2em 0;
+		margin: 2em 20em;
+		width: 50%;
+		font-weight: bold;
+		border: solid 3px black;
+	}
+	.box p {
+		margin: 0; 
+		padding: 0;
+	}
+	.movie {
+		position: relative;
+		display: inline-block;
+		padding: 0 55px;
+	}
+	.movie:before, .movie:after{
+		content: '';
+		position: absolute;
+		top: 50%;
+		display: inline-block;
+		width: 45px;
+		height: 2px;
+		border-top: solid 1px black;
+		border-bottom: solid 1px black;
+	}
+	.movie:before {left:0;}
+	.movie:after {right: 0;}
+	.color {
+		transition: color 0.3s ease 0s;
+		text-decoration: none;
+		color: black;
+	}
+	.deco{
+		width: 100px;
+	}
+	.button{
+		position: relative;
+		display: inline-block;
+		padding: 0.25em 0;
+		width: 100px;
+		font-weight: bold;
+		text-decoration: none;
+		color: black;
+	}
+	.button:before{
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 2px;
+		left: 0;
+		top:100%;
+		border-radius: 3px;
+		background: black;
+		transition: .2s;
+	}
+	.button:hover:before {
+		top: -webkit-calc(100% - 3px);
+		top: calc(100% - 3px);
+    }
+	#page-top {
+    	position: fixed;
+    	bottom: 20px;
+		right: 20px;
+    	font-size: 80%;
+	}
+ 	#page-top a {
+		display: block;
+		background: #666;
+		color: #ffffff;
+		width: 100px;
+		padding: 25px 0;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 10px;
+	}
+	#page-top a:hover {
+		background: #999;
+		text-decoration: none;
+	}
+	</style>
+</head>
+  <body topmargin="0">
+    <header>
+      <nav>
+        <ul>
+          <li class="button"><a href="#Top" class="color">Top</a></li>
+          <li class="button"><a href="#Profile" class="color">Profile</a></li>
+          <li class="button"><a href="#Works" class="color">Works</a></li>
+          <li class="button"><a href="#Contact" class="color">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="Top">
+    		<br>
+    		<p ><img src="burst.png" alt="飾り枠" class="deco"/></p>
+    		<h1>はじめに</h1>
+    		<p>Yの趣味の制作物をまとめたサイトです。</p>
+    		<p>サイト内の画像及び文章は予告なく変更・削除される場合があります。</p>
+    		<p>版権作品のイラスト等については、版権元（原作・出版・各関係者）とは一切無関係のファンアートです。</p>
+    		<p>このサイトはPCブラウザでの閲覧を推奨します。</p>
+	</section>
+	<section id="Profile";>
+		<div  class="box">
+		<h2>Profile</h2>
+		<p>Y</p>
+		<p>津山高専四年生</p>
+		<p>岡山生まれの岡山育ち</p>
+		<p>絵を描いて遊んでいる</p>
+		</div>
+	</section>
+	<div>
+	<section id="Works";
+	class="workbuck">
+			<h2>Works</h2>
+			<a href="picture11.png" data-lightbox="pic" data-title="TSUBASA"><img src="picture11.png" alt="tsubasa" class="mini"></a>
+			<a href="picture2.png" data-lightbox="pic" data-title="ITOU2017"><img src="picture2-thumbnail.png" alt="itou2017" class="mini"></a>
+			<a href="picture3.png" data-lightbox="pic" data-title="ITOU2015"><img src="picture3-thumbnail.png" alt="itou2015" class="mini"></a>
+			<a href="picture4.png" data-lightbox="pic" data-title="GENGAR"><img src="picture4.png" alt="Gengar" class="mini"></a>
+			<a href="picture7.png" data-lightbox="pic" data-title="YUDACHI"><img src="picture7.png" alt="yudachi" class="mini"></a>
+			<a href="picture8.png" data-lightbox="pic" data-title="MOMOKA"><img src="picture8.png" alt="momoka" class="mini"></a>
+			<a href="picture9.png" data-lightbox="pic" data-title="HOSOKU"><img src="picture9.png" alt="HOSOKU" class="mini"></a>
+	</div>
+			<ul style="list-style:none;">
+			<li><h3 class="movie">参加させていただいた動画　2015　(00:52あたりから)</h3></li>
+			<script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm26781256/script?w=640&h=360"></script><noscript><a href="http://www.nicovideo.jp/watch/sm26781256">伊東歌詞太郎生誕180年お祝い動画</a></noscript>
+			<li><h3 class="movie">参加させていただいた動画　2016　(07:29あたりから)</h3></li>
+			<script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm29313248/script?w=640&h=360"></script><noscript><a href="http://www.nicovideo.jp/watch/sm29313248">伊東歌詞太郎生誕181年お祝い動画</a></noscript>
+			<li><h3 class="movie">参加させていただいた動画　2017 (06:22あたりから)</h3></li>
+			<script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm31627029/script?w=640&h=360"></script><noscript><a href="http://www.nicovideo.jp/watch/sm31627029">伊東歌詞太郎生誕182年お祝い動画</a></noscript>
+			</ul>
+	</section>
+	<section id="Contact";
+	class="box">
+		<h2>Contact</h2>
+		<nav>
+			<span class="fa-stack fa-lg">
+				<i class="fa fa-circle fa-stack-2x" style="color:#55acee"></i>
+				<i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span>
+					<a href="https://twitter.com/ynog2128" class="color">Twitter</a></nav>
+			<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x" style="color:red"></i>
+				  <i class="fa fa-envelope fa-stack-1x fa-inverse" style="color:white"></i></span>itiisensinn@gmail.com
+	</section>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<p id="page-top"><a href="#">PAGE TOP</a></p>
 
-### Markdown
+	<footer>
+		<div class="copylight">
+			Copyright (c) 2017 Copyright Y All Rights Reserved.
+		</div>
+	</footer>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ynog3809/ynog3809.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	</body>
+</html>
